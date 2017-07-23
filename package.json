@@ -1,5 +1,27 @@
 {
+  "name": "speaking-jpg",
+  "description": "A tool to hide encrypted messages in jpg images",
+  "version": "1.0.0",
+  "author": "Wolfram Hempel",
+  "homepage": "https://github.com/WolframHempel/speaking-jpg",
+  "repository": "https://github.com/WolframHempel/speaking-jpg.git",
+  "license": "MIT",
+  "scripts": {},
+  "main": "src/index",
+  "bin": {
+    "speaking-jpg": "bin/speaking-jpg"
+  },
+  "keywords": [
+    "encryption",
+    "jpg",
+    "secret",
+    "communication"
+  ],
   "dependencies": {
     "minimist": "^1.2.0"
-  }
+  },
+  "files": [
+    "src",
+    "bin"
+  ]
 }
