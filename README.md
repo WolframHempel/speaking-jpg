@@ -2,7 +2,7 @@
 A simple tool to hide encrypted text messages inside jpeg images.
 
 ## Why?
-I stumbled upon [a comment on Hackernews](https://news.ycombinator.com/item?id=14825675) the other day. A secure messaging app that used Tor just passed a security audit and the commenter argued that while this would be save, once your phone is seized by authorities your use of Tor for messaging would stick out like a sore thumb.
+I stumbled upon [a comment on Hackernews](https://news.ycombinator.com/item?id=14825675) the other day. A secure messaging app that used Tor just passed a security audit and the commenter argued that while this would be safe, once your phone is seized by authorities your use of Tor for messaging would stick out like a sore thumb.
 
 So why not use something way less conspicuous? Speaking-jpg allows you to embed messages in normal jpeg images that can be uploaded and shared via email or social media. Only if the counterparty knows that a message is contained AND has the same key they can retrieve and decrypt the message.
 
