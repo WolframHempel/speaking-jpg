@@ -32,7 +32,7 @@ speaking-jpg read
 ```
 
 ## Limitations
-- Max message length is 65.000 bytes
+- Max message length is 65,000 bytes (Sixty-Five-Thousand)
 - Image processing (e.g. resizing upon upload) might strip out the comment.
 
 ## How does it work?
