@@ -39,3 +39,11 @@ speaking-jpg read
 speaking jpg embeds a comment byte marker into the jpg's meta data section, followed by the total length and a random byte series to identify the comment as speaking-jpg one. Image viewers ignore this segment when parsing the file.
 
 The message itself is stored as aes-256-ctr encrypted utf8 bytes.
+
+## Example
+### Before: 
+![img](https://user-images.githubusercontent.com/5931248/28672046-7c10d624-72d6-11e7-8776-60c838c3d297.jpg)
+### After:
+![hello-world](https://user-images.githubusercontent.com/5931248/28672058-84ccac84-72d6-11e7-8a47-3e37fa1cbc4b.jpg)
+Note how the unedited image will call an error when told to read.
+![image](https://user-images.githubusercontent.com/5931248/28672187-f23afbe0-72d6-11e7-9b63-d902f6e7e5d4.png)
